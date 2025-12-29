@@ -69,15 +69,15 @@ Eğitim sırasında:
 - Öğretmen modelden **yumuşak etiketler (logits)** elde edilmiştir.
 - Öğrenci modelin çıktıları ile karşılaştırılmıştır.
 - Sert (ground truth) ve yumuşak (teacher) kayıplar birlikte optimize edilmiştir.
+Toplam kayıp fonksiyonu aşağıdaki şekilde tanımlanmıştır:
 
-Toplam kayıp fonksiyonu:
-
-\[
+$$
 \mathcal{L} = \alpha \cdot \mathcal{L}_{\text{CE}} + (1 - \alpha) \cdot T^2 \cdot \mathcal{L}_{\text{KL}}
-\]
+$$
 
 Bu yapı, öğrenci modelin hem doğru cevabı öğrenmesini
 hem de öğretmen modelin karar dağılımını taklit etmesini sağlar.
+
 
 ---
 
