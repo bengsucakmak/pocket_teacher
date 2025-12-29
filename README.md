@@ -125,6 +125,16 @@ adım adım yapılandırılmıştır.
 
 ---
 
+## Notebook Önizleme Notu
+
+Bu proje tek bir Jupyter Notebook üzerinden yürütülmektedir.
+Notebook, ipywidgets ve etkileşimli çıktılar içerdiği için
+GitHub arayüzünde doğrudan önizlenemeyebilir.
+
+Notebook’un doğru şekilde görüntülenmesi ve çalıştırılması için
+yerel Jupyter ortamında veya Google Colab üzerinde açılması önerilir.
+
+
 ## Lisans ve Kullanım
 
 Bu proje akademik ve eğitim amaçlıdır.
